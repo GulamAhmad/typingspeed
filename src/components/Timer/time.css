@@ -1,0 +1,17 @@
+.timer {
+  width: 100%;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 20px;
+  padding: 0 20px;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  & > p {
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
